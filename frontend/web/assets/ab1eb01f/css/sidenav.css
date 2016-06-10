@@ -1,0 +1,59 @@
+.kv-sidenav ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+.kv-sidenav li a {
+    border-radius: 0;
+    border-bottom: 1px solid #4cae4c;
+    background-color: #5cb85c ;
+    color: white;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #337ab7;
+}
+.kv-sidenav .opened, .kv-sidenav .closed {
+    float: right;
+}
+
+.kv-sidenav .indicator {
+    color: #449d44;
+}
+.kv-sidenav li a:hover{
+    background-color: #ffffff;
+    border-color: #449d44;
+}
+.kv-sidenav .active > a > span > .indicator {
+    color: #ffffff;
+}
+
+.kv-sidenav .active > ul {
+    background-color: #5cb85c;
+}
+
+.kv-sidenav .nav {
+    display: none;
+}
+
+.kv-sidenav .nav .nav {
+    display: none;
+}
+
+.kv-sidenav .nav a {
+    padding-left: 9%;
+}
+
+.kv-sidenav .nav .nav a {
+    padding-left: 18%;
+}
+
+.kv-sidenav .active > ul {
+    display: block;
+}
+
+.kv-sidenav .nav .active > ul {
+    display: block;
+
+}
